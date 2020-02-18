@@ -1,0 +1,13 @@
+<!--pages/home/home.wxml-->
+<!-- 通过{{}} 来获取home.js中data里的数据 -->
+<view>Hello {{name}}</view>
+<view>我的年龄：{{age}}</view>
+<!-- 获取列表中的值 -->
+<view wx:for="{{infos}}">花名：{{item.name}} 产地：{{item.address}}</view>
+
+<!-- 事件监听，修改data -->
+<view>当前计数：{{counter}}</view>
+<!-- 绑定轻触，counter加一 -->
+<button size="mini" bindtap="handleBtnClick">+</button>
+<!-- 绑定轻触，counter减一 -->
+<button size="mini" bindtap="handleBtnClick2">-</button>
