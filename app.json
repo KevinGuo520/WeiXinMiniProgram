@@ -7,7 +7,7 @@
     "navigationBarBackgroundColor": "#ff5777",
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "花卉识别应用",
-    "backgroundColor": "gray",
+    "backgroundColor": "lightgray",
     "backgroundTextStyle": "light",
     "enablePullDownRefresh": true
   },

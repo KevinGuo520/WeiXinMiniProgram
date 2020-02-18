@@ -11,7 +11,8 @@ Page({
       {name: '牡丹', address: '中国'},
       {name: '郁金香', address: '荷兰'}
     ],
-    counter: 0
+    counter: 0,
+    msg: "点我"
   },
 
   // 自定义函数
@@ -27,6 +28,13 @@ Page({
   handleBtnClick2() {
     this.setData({
       counter: this.data.counter - 1
+    })
+  },
+
+  handleBtnChange() {
+    console.log("点击了..."),
+    this.setData({
+      msg: this.data.msg = "逗逼...哈哈"
     })
   },
 
