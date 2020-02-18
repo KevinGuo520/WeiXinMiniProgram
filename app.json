@@ -3,5 +3,28 @@
     "pages/home/home",
     "pages/about/about"
   ],
-  "sitemapLocation": "sitemap7.json"
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "花卉识别应用",
+    "backgroundColor": "gray",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "主页",
+      "iconPath": "assets/tabbar/home.png",
+      "selectedIconPath": "assets/tabbar/home_active.png"
+    },
+    {
+      "pagePath": "pages/about/about",
+      "text": "关于",
+      "iconPath": "assets/tabbar/category.png",
+      "selectedIconPath": "assets/tabbar/category_active.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
 }
